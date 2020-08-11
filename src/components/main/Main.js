@@ -30,7 +30,7 @@ class Main extends Component {
                 <h1 className="dark">Pre-order now!</h1>
                 <p className="dark">The cool kids will all be there</p>
 
-                <AttendeeList />
+                <AttendeeList attendees={this.state.attendees} />
             </div>
         )
     }
